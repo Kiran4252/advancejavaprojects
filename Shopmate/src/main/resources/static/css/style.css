@@ -1,0 +1,1108 @@
+/* ========================================
+   SHOPMATE - HOME PAGE CSS
+   ======================================== */
+
+
+/* Remove default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ========================================
+   BODY
+   ======================================== */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    background-color: #263647;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* ========================================
+   HEADER
+   ======================================== */
+
+.header {
+    height: 47px;
+
+    background-color: #101820;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 25px;
+
+    border-bottom: 1px solid #26394c;
+}
+
+
+/* ========================================
+   LOGO
+   ======================================== */
+
+.logo {
+    color: white;
+
+    font-size: 19px;
+
+    font-weight: bold;
+
+    letter-spacing: 0.3px;
+}
+
+
+.cart-icon {
+    font-size: 16px;
+
+    margin-left: 4px;
+
+    vertical-align: middle;
+}
+
+
+/* ========================================
+   NAVIGATION
+   ======================================== */
+
+.nav {
+    display: flex;
+
+    align-items: center;
+
+    gap: 22px;
+}
+
+
+.nav a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 12px;
+
+    transition: 0.3s;
+}
+
+
+.nav a:hover {
+    color: #ff9f1c;
+}
+
+
+/* ========================================
+   HERO SECTION
+   ======================================== */
+
+.hero {
+    flex: 1;
+
+    min-height: 260px;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    background: linear-gradient(
+        110deg,
+        #233342,
+        #2d3c50,
+        #35465a
+    );
+}
+
+
+/* ========================================
+   HERO CONTENT
+   ======================================== */
+
+.hero-content {
+    margin-top: -10px;
+}
+
+
+.hero h1 {
+    color: white;
+
+    font-size: 29px;
+
+    font-weight: bold;
+
+    margin-bottom: 17px;
+}
+
+
+.hero p {
+    color: #f1f1f1;
+
+    font-size: 13px;
+
+    margin-bottom: 25px;
+}
+
+
+/* ========================================
+   SHOP NOW BUTTON
+   ======================================== */
+
+.shop-btn {
+    display: inline-block;
+
+    background-color: #ff9f0b;
+
+    color: #111;
+
+    text-decoration: none;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    padding: 8px 17px;
+
+    border-radius: 3px;
+
+    transition: 0.3s;
+}
+
+
+.shop-btn:hover {
+    background-color: #ffb52e;
+
+    transform: translateY(-2px);
+}
+
+
+/* ========================================
+   FOOTER
+   ======================================== */
+
+.footer {
+    height: 50px;
+
+    background-color: #101820;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    color: white;
+
+    border-top: 1px solid #26394c;
+}
+
+
+.footer p {
+    font-size: 12px;
+}
+
+
+
+
+/* ========================================
+   SHOPMATE - LOGIN PAGE CSS
+   ======================================== */
+
+
+/* LOGIN SECTION */
+
+.login-section {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        110deg,
+        #233342,
+        #2d3c50,
+        #35465a
+    );
+}
+
+
+/* LOGIN BOX */
+
+.login-box {
+    width: 350px;
+
+    padding: 30px;
+
+    background-color: #101820;
+
+    border-radius: 8px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+
+/* LOGIN TITLE */
+
+.login-box h2 {
+    color: white;
+
+    text-align: center;
+
+    margin-bottom: 25px;
+
+    font-size: 22px;
+}
+
+
+/* FORM GROUP */
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+
+/* LABEL */
+
+.form-group label {
+    display: block;
+
+    color: white;
+
+    font-size: 13px;
+
+    margin-bottom: 7px;
+}
+
+
+/* INPUT */
+
+.form-group input {
+    width: 100%;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    outline: none;
+
+    font-size: 13px;
+}
+
+
+/* INPUT FOCUS */
+
+.form-group input:focus {
+    box-shadow: 0 0 0 2px #ff9f0b;
+}
+
+
+/* LOGIN BUTTON */
+
+.login-btn {
+    width: 100%;
+
+    padding: 10px;
+
+    border: none;
+
+    border-radius: 4px;
+
+    background-color: #ff9f0b;
+
+    color: #111;
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+
+/* BUTTON HOVER */
+
+.login-btn:hover {
+    background-color: #ffb52e;
+
+    transform: translateY(-2px);
+}
+
+
+/* REGISTER LINK */
+
+.register-link {
+    text-align: center;
+
+    margin-top: 18px;
+
+    color: #ddd;
+
+    font-size: 12px;
+}
+
+
+/* REGISTER LINK */
+
+.register-link a {
+    color: #ff9f0b;
+
+    text-decoration: none;
+}
+
+
+/* REGISTER LINK HOVER */
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+/* ========================================
+   SHOPMATE - LOGIN PAGE CSS end
+   ======================================== */
+   
+   
+  
+   /* ========================================
+      SHOPMATE - REGISTER PAGE CSS
+      ======================================== */
+
+
+   /* REGISTER SECTION */
+
+   .register-section {
+       flex: 1;
+
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+       padding: 35px 20px;
+
+       background: linear-gradient(
+           110deg,
+           #233342,
+           #2d3c50,
+           #35465a
+       );
+   }
+
+
+   /* REGISTER BOX */
+
+   .register-box {
+       width: 380px;
+
+       padding: 30px;
+
+       background-color: #101820;
+
+       border-radius: 8px;
+
+       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+   }
+
+
+   /* TITLE */
+
+   .register-box h2 {
+       color: white;
+
+       text-align: center;
+
+       margin-bottom: 8px;
+
+       font-size: 22px;
+   }
+
+
+   /* SUBTITLE */
+
+   .register-subtitle {
+       color: #ccc;
+
+       text-align: center;
+
+       font-size: 12px;
+
+       margin-bottom: 22px;
+   }
+
+
+   /* FORM GROUP */
+
+   .form-group {
+       margin-bottom: 15px;
+   }
+
+
+   /* LABEL */
+
+   .form-group label {
+       display: block;
+
+       color: white;
+
+       font-size: 13px;
+
+       margin-bottom: 7px;
+   }
+
+
+   /* INPUT */
+
+   .form-group input {
+       width: 100%;
+
+       padding: 10px;
+
+       border: none;
+
+       border-radius: 4px;
+
+       outline: none;
+
+       font-size: 13px;
+   }
+
+
+   /* INPUT FOCUS */
+
+   .form-group input:focus {
+       box-shadow: 0 0 0 2px #ff9f0b;
+   }
+
+
+   /* REGISTER BUTTON */
+
+   .register-btn {
+       width: 100%;
+
+       padding: 10px;
+
+       margin-top: 5px;
+
+       border: none;
+
+       border-radius: 4px;
+
+       background-color: #ff9f0b;
+
+       color: #111;
+
+       font-size: 14px;
+
+       font-weight: bold;
+
+       cursor: pointer;
+
+       transition: 0.3s;
+   }
+
+
+   /* BUTTON HOVER */
+
+   .register-btn:hover {
+       background-color: #ffb52e;
+
+       transform: translateY(-2px);
+   }
+
+
+   /* LOGIN LINK */
+
+   .login-link {
+       text-align: center;
+
+       margin-top: 18px;
+
+       color: #ddd;
+
+       font-size: 12px;
+   }
+
+
+   /* LOGIN LINK */
+
+   .login-link a {
+       color: #ff9f0b;
+
+       text-decoration: none;
+   }
+
+
+   /* LOGIN LINK HOVER */
+
+   .login-link a:hover {
+       text-decoration: underline;
+   }
+
+   /* ========================================
+         SHOPMATE - REGISTER PAGE CSS end
+         ======================================== */
+		 
+	
+		 /* ========================================
+		    SHOPMATE - PRODUCTS PAGE CSS
+		    ======================================== */
+
+
+		 /* PRODUCTS SECTION */
+
+		 .products-section {
+		     flex: 1;
+
+		     padding: 35px 40px;
+
+		     background: linear-gradient(
+		         110deg,
+		         #233342,
+		         #2d3c50,
+		         #35465a
+		     );
+
+		     min-height: calc(100vh - 97px);
+		 }
+
+
+		 /* PAGE TITLE */
+
+		 .products-section > h1 {
+		     color: white;
+
+		     text-align: center;
+
+		     font-size: 28px;
+
+		     margin-bottom: 8px;
+		 }
+
+
+		 /* SUBTITLE */
+
+		 .products-subtitle {
+		     color: #ddd;
+
+		     text-align: center;
+
+		     font-size: 13px;
+
+		     margin-bottom: 30px;
+		 }
+
+
+		 /* PRODUCT CONTAINER */
+
+		 .product-container {
+		     display: grid;
+
+		     grid-template-columns: repeat(
+		         auto-fit,
+		         minmax(220px, 1fr)
+		     );
+
+		     gap: 25px;
+
+		     max-width: 1200px;
+
+		     margin: auto;
+		 }
+
+
+		 /* PRODUCT CARD */
+
+		 .product-card {
+		     background-color: #101820;
+
+		     border-radius: 8px;
+
+		     overflow: hidden;
+
+		     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+
+		     transition: 0.3s;
+		 }
+
+
+		 /* CARD HOVER */
+
+		 .product-card:hover {
+		     transform: translateY(-5px);
+
+		     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+		 }
+
+
+		 /* PRODUCT IMAGE */
+
+		 .product-image {
+		     width: 100%;
+
+		     height: 210px;
+
+		     background-color: white;
+
+		     display: flex;
+
+		     justify-content: center;
+
+		     align-items: center;
+
+		     overflow: hidden;
+		 }
+
+
+		 /* IMAGE */
+
+		 .product-image img {
+		     width: 100%;
+
+		     height: 100%;
+
+		     object-fit: contain;
+
+		     padding: 15px;
+
+		     transition: 0.3s;
+		 }
+
+
+		 /* IMAGE HOVER */
+
+		 .product-card:hover .product-image img {
+		     transform: scale(1.05);
+		 }
+
+
+		 /* PRODUCT DETAILS */
+
+		 .product-details {
+		     padding: 18px;
+		 }
+
+
+		 /* PRODUCT NAME */
+
+		 .product-details h2 {
+		     color: white;
+
+		     font-size: 17px;
+
+		     margin-bottom: 8px;
+		 }
+
+
+		 /* CATEGORY */
+
+		 .category {
+		     color: #aaa;
+
+		     font-size: 12px;
+
+		     margin-bottom: 10px;
+		 }
+
+
+		 /* PRICE */
+
+		 .price {
+		     color: #ff9f0b;
+
+		     font-size: 18px;
+
+		     font-weight: bold;
+
+		     margin-bottom: 15px;
+		 }
+
+
+		 /* BUTTON CONTAINER */
+
+		 .product-buttons {
+		     display: flex;
+
+		     gap: 8px;
+		 }
+
+
+		 /* COMMON BUTTON */
+
+		 .product-buttons a {
+		     flex: 1;
+
+		     text-align: center;
+
+		     padding: 9px 5px;
+
+		     border-radius: 4px;
+
+		     text-decoration: none;
+
+		     font-size: 11px;
+
+		     font-weight: bold;
+
+		     transition: 0.3s;
+		 }
+
+
+		 /* CART BUTTON */
+
+		 .cart-btn {
+		     background-color: #26394c;
+
+		     color: white;
+		 }
+
+
+		 .cart-btn:hover {
+		     background-color: #3b5269;
+		 }
+
+
+		 /* BUY BUTTON */
+
+		 .buy-btn {
+		     background-color: #ff9f0b;
+
+		     color: #111;
+		 }
+
+
+		 .buy-btn:hover {
+		     background-color: #ffb52e;
+
+		     transform: translateY(-2px);
+		 }
+
+
+		 /* NO PRODUCTS */
+
+		 .no-products {
+		     text-align: center;
+
+		     color: white;
+
+		     margin-top: 80px;
+		 }
+
+
+		 .no-products h2 {
+		     margin-bottom: 10px;
+		 }
+
+
+		 .no-products p {
+		     color: #ccc;
+		 }
+
+
+		 /* RESPONSIVE */
+
+		 @media (max-width: 600px) {
+
+		     .products-section {
+		         padding: 25px 15px;
+		     }
+
+		     .product-container {
+		         grid-template-columns: 1fr;
+		     }
+
+		 }
+		 
+		 /* ========================================
+		 	    SHOPMATE - PRODUCTS PAGE CSS end
+		 	    ======================================== */
+				
+				
+			
+				/* ========================================
+				   SHOPMATE - SHOP PAGE CSS
+				   ======================================== */
+
+
+				/* SHOP SECTION */
+
+				.shop-section {
+				    flex: 1;
+
+				    padding: 35px 40px;
+
+				    background: linear-gradient(
+				        110deg,
+				        #233342,
+				        #2d3c50,
+				        #35465a
+				    );
+
+				    min-height: calc(100vh - 97px);
+				}
+
+
+				/* TITLE */
+
+				.shop-section h1 {
+				    color: white;
+
+				    text-align: center;
+
+				    font-size: 28px;
+
+				    margin-bottom: 8px;
+				}
+
+
+				/* SUBTITLE */
+
+				.shop-subtitle {
+				    color: #ddd;
+
+				    text-align: center;
+
+				    font-size: 13px;
+
+				    margin-bottom: 30px;
+				}
+
+
+				/* PRODUCT CONTAINER */
+
+				.shop-container {
+				    max-width: 1200px;
+
+				    margin: auto;
+
+				    display: grid;
+
+				    grid-template-columns:
+				        repeat(auto-fit, minmax(220px, 1fr));
+
+				    gap: 25px;
+				}
+
+
+				/* PRODUCT CARD */
+
+				.shop-card {
+				    background-color: #101820;
+
+				    border-radius: 8px;
+
+				    overflow: hidden;
+
+				    box-shadow:
+				        0 5px 15px rgba(0, 0, 0, 0.35);
+
+				    transition: 0.3s;
+				}
+
+
+				/* CARD HOVER */
+
+				.shop-card:hover {
+				    transform: translateY(-5px);
+
+				    box-shadow:
+				        0 8px 20px rgba(0, 0, 0, 0.5);
+				}
+
+
+				/* IMAGE CONTAINER */
+
+				.shop-image {
+				    width: 100%;
+
+				    height: 210px;
+
+				    background-color: white;
+
+				    display: flex;
+
+				    justify-content: center;
+
+				    align-items: center;
+
+				    overflow: hidden;
+				}
+
+
+				/* IMAGE */
+
+				.shop-image img {
+				    width: 100%;
+
+				    height: 100%;
+
+				    object-fit: contain;
+
+				    padding: 15px;
+
+				    transition: 0.3s;
+				}
+
+
+				/* IMAGE HOVER */
+
+				.shop-card:hover .shop-image img {
+				    transform: scale(1.05);
+				}
+
+
+				/* DETAILS */
+
+				.shop-details {
+				    padding: 18px;
+				}
+
+
+				/* PRODUCT NAME */
+
+				.shop-details h2 {
+				    color: white;
+
+				    font-size: 17px;
+
+				    margin-bottom: 8px;
+				}
+
+
+				/* CATEGORY */
+
+				.shop-category {
+				    color: #aaa;
+
+				    font-size: 12px;
+
+				    margin-bottom: 10px;
+				}
+
+
+				/* PRICE */
+
+				.shop-price {
+				    color: #ff9f0b;
+
+				    font-size: 18px;
+
+				    font-weight: bold;
+
+				    margin-bottom: 15px;
+				}
+
+
+				/* BUTTON CONTAINER */
+
+				.shop-buttons {
+				    display: flex;
+
+				    gap: 8px;
+				}
+
+
+				/* COMMON BUTTON */
+
+				.shop-buttons a {
+				    flex: 1;
+
+				    text-align: center;
+
+				    padding: 9px 5px;
+
+				    border-radius: 4px;
+
+				    text-decoration: none;
+
+				    font-size: 11px;
+
+				    font-weight: bold;
+
+				    transition: 0.3s;
+				}
+
+
+				/* ADD TO CART */
+
+				.add-cart-btn {
+				    background-color: #26394c;
+
+				    color: white;
+				}
+
+
+				.add-cart-btn:hover {
+				    background-color: #3b5269;
+				}
+
+
+				/* SHOP BUTTON */
+
+				.shop-now-btn {
+				    background-color: #ff9f0b;
+
+				    color: #111;
+				}
+
+
+				.shop-now-btn:hover {
+				    background-color: #ffb52e;
+
+				    transform: translateY(-2px);
+				}
+
+
+				/* NO PRODUCTS */
+
+				.no-products {
+				    text-align: center;
+
+				    color: white;
+
+				    margin-top: 80px;
+				}
+
+
+				.no-products h2 {
+				    margin-bottom: 10px;
+				}
+
+
+				.no-products p {
+				    color: #ccc;
+				}
+
+
+				/* RESPONSIVE */
+
+				@media (max-width: 600px) {
+
+				    .shop-section {
+				        padding: 25px 15px;
+				    }
+
+				    .shop-container {
+				        grid-template-columns: 1fr;
+				    }
+
+				}
+				/* ========================================
+						SHOPMATE - SHOP PAGE CSS end
+			 ======================================== */
+
+
